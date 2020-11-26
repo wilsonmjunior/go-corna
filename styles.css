@@ -105,12 +105,12 @@ a {
   }
 }
 
-.started-text {
+.started {
   display: flex;
   flex-direction: column;
 }
 
-.started-text h1 {
+.started h1 {
   width: 500px;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
@@ -118,18 +118,18 @@ a {
   line-height: 126%;
 }
 
-.started-text h1 span {
+.started h1 span {
   color: #4285F4;
 }
 
-.started-text > span {
+.started > p {
   width: 400px;
   color: #616161;
   font-size: 1rem;
   margin-top: 0.75rem;
 }
 
-.started-text a {
+.started a {
   width: 174px;
   height: 40px;
   padding: 0.875rem 1.875rem;
@@ -145,32 +145,32 @@ a {
   transition: 0.2s ease-in-out;
 }
 
-.started-text a:hover {
+.started a:hover {
   opacity: 0.8;
 }
 
-.started-text .play-video {
+.started .play-video {
   display: flex;
   align-items: center;
 
   margin-top: 10rem;
 }
 
-.started-text .play-video img {
+.started .play-video img {
   width: 55px;
 }
 
-.started-text .play-video div {
+.started .play-video div {
   margin-left: 0.75rem;
 }
 
-.started-text .play-video h2 {
+.started .play-video h2 {
   color: #B0B0B0;
   font-size: 1.25rem;
   font-weight: normal;
 }
 
-.started-text .play-video span {
+.started .play-video span {
   display: block;
   color: #000;
   font-size: 0.82rem;
@@ -182,4 +182,64 @@ a {
 .experiment-app {
   height: 100vh;
   background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 12rem;
+}
+
+@media (min-width: 1560px) {
+  .experiment-app {
+    padding: 3rem 24rem;
+  }
+}
+
+.experiment-app .features-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiment-app .features-app h1 {
+  width: 400px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 126%;
+}
+
+.experiment-app .features-app h1 span { 
+  color: #EC5863;
+}
+
+.experiment-app .features-app > p  { 
+  width: 500px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.875rem;
+  color: #616161;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+
+  margin-top: 0.75rem;
+}
+
+.experiment-app .features-app a { 
+  width: 174px;
+  height: 40px;
+  padding: 0.875rem 1.875rem;
+  background: #EC5863;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  color: #fff;
+  text-align: center;
+  margin-top: 1.5rem;
+
+  transition: 0.2s ease-in-out;
+}
+
+
+.experiment-app .features-app a:hover { 
+  opacity: 0.8;
 }

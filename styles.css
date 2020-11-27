@@ -367,3 +367,89 @@ a {
 .talk-experts .features a:hover { 
   opacity: 0.8;
 }
+
+/* HEALTHCARE */
+
+.healthcare {
+  height: 90vh;
+  background: #fff;
+  padding: 3rem 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.healthcare .healthcare-text h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 126%;
+}
+
+.healthcare .healthcare-text h1 span {
+  color: #EC5863;
+}
+
+.healthcare .healthcare-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.healthcare .healthcare-text p {
+  width: 700px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.875rem;
+  color: #616161;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+
+  margin-top: 0.75rem;
+}
+
+.healthcare .health-details {
+  display: flex;
+  gap: 4rem;
+  margin-top: 8rem;
+}
+
+.healthcare .health-details article {
+  width: 280px;
+  height: 278px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.healthcare .health-details article h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  margin-top: 3.625rem;
+}
+
+.healthcare .health-details article p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #616161;
+}
+
+
+.download-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.download-app a {
+  margin: 2rem;
+}
